@@ -4,6 +4,7 @@ This is a sample project to get idea how html and css files ae connected and wha
 Execution steps:
 
 CMD commands:-
+(git must be installed in your system)
 
 1.git clone https://github.com/AmanVerma18/html-css
 
