@@ -1,5 +1,5 @@
 # html-css
-This is a sample project to get idea how html and css files ae connected and what css plays role in web development
+This is a sample project to get idea how html and css files are connected and what  role css plays in web development.
 
 Execution steps:
 
