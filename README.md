@@ -12,9 +12,7 @@ CMD commands:-
 
 3.dir
 
-two files will be shown- selectors.css and selectorsExercise.html
-to view website open selectorsExercise.html for that type -
-
-selectorsExercise.html
+different files will be shown with .html extension and .css extension. To view a file(html) in chrome type that file name life
+selectorsExercise.html or ImageGrid.html
 
 
