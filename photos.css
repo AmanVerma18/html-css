@@ -1,0 +1,13 @@
+img{
+	width:30%;
+	float: left;
+	margin: 1.666%;
+}
+h2{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	border-bottom: 4px solid black;
+	margin-left: 35%;
+	margin-right: 35%;
+	width:30%;
+}
