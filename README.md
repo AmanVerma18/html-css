@@ -12,7 +12,7 @@ CMD commands:-
 
 3.dir
 
-different files will be shown with .html extension and .css extension. To view a file(html) in chrome type that file name life
+different files will be shown with .html extension and .css extension. To view a file(html) in chrome, type that file name in cmd like-
 selectorsExercise.html or ImageGrid.html
 
 
