@@ -2,12 +2,45 @@
 <html>
 <head>
 	<title></title>
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="startup.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-	<link rel="stylesheet" type="text/css" href="ImageGallery.css">
+	<style type="text/css">
+		#content{
+	text-align: center;
+	margin-top: 20%;
+	color: white;
+	text-shadow: 0px 4px 3px black,
+				 0px 8px 13px black,
+				 0px 18px 23px grey;
+}
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+body{
+	background:url(https://images.unsplash.com/photo-1566853948612-2b11887ee592?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+	
+
+}
+h1{
+	font-weight: 700;
+	font-size: 5em;
+
+}
+html{
+	height: 100%;
+}
+	</style>
+
 </head>
 <body>
-	<nav class="navbar  navbar-inverse nav navbar-fixed-top">
+	<nav class="navbar  navbar-default nav navbar-fixed-top">
 		<div class="container">
 		<div class="navbar-header">
 			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -16,91 +49,41 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-		<a href="#" class="navbar-brand"><i class="fas fa-images"></i> IMGS</a>
+		<a href="#" class="navbar-brand"> Purrfect Match</a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#">Sign up</a></li>
-            <li><a href="#">Login</a></li>
-		</ul>
-	</div>
-	</div>
+		<div class="nav navbar-nav navbar-right">
+			<li>
+				<a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign up</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
+			</li>
+		</div></div>
+		
+
+		</div>
 		
 		
 	</nav>
-	
-	<div class="container">
-	<div class="jumbotron">
-		<h1><strong><i class="fas fa-camera-retro"></i> The Image Gallery</strong></h1>
-		<div>
-		<strong id=text><em>A bunch of beautiful images which I didn't clicked.</em></strong>
-	</div>
-	</div>
-	
-	<div class="row">
-		<div  class="col-lg-4 col-sm-6  ">
-			<div class="thumbnail">
-				<div class="image">
-				<img class="image"  src="https://images.unsplash.com/photo-1594190679254-87b36228d56a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-			</div>
-		</div></div>
-		<div class="col-lg-4 col-sm-6  " >
-			<div class="thumbnail">
-				<div class="image">
-				<img class="image"   src="https://images.unsplash.com/photo-1594089574949-1247f43a7bd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-		</div>
-		</div></div>
-				<div class="col-lg-4 col-sm-6  " >
-					<div class="thumbnail">
-						<div class="image">
-			<img class="image"  src="https://images.unsplash.com/photo-1594011452783-d26d894c9fa7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-			</div>
-		</div></div>
-		<div class="col-lg-4 col-sm-6  ">
-			<div class="thumbnail">
-				<div class="image">
-				<img class="image"  src="https://images.unsplash.com/photo-1591659507386-c1c5e8f36c64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-		
-		</div></div></div>
 
-		<div class=" col-lg-4 col-sm-6  ">
-			<div class="thumbnail">
-				<div class="image">
-				<img class="image"   src="https://images.unsplash.com/photo-1594276371698-33d86d15b87d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div id="content">
+		<h1>Purrfect Match</h1>
+		<h3>The Only Genuine Dating App
+		</h3>
+		<hr>
+		<button class="btn btn-default btn-lg"><i class="fa fa-paw" aria-hidden="true"></i> Get started</button>
 		</div>
-		</div></div>
-				<div class="col-lg-4 col-sm-6  ">
-					
-					<div class="thumbnail"><div class="image">
-			<img class="image"  src="https://images.unsplash.com/photo-1594190679254-87b36228d56a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-			</div></div></div>
-		
-		<div class="col-lg-4 col-sm-6  ">
-			<div class="thumbnail">
-				<div class="image">
-				<img class="image"  src="https://images.unsplash.com/photo-1594177527313-bc4717bf4ba1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-			
-		</div></div></div>
-		
-		<div class="col-lg-4 col-sm-6  ">
-			<div class="thumbnail">
-				<div class="image">
-				<img class="image"  src="https://images.unsplash.com/photo-1594348557526-89b3d9208d9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-			
-		</div></div>
-		</div>
-				<div class="col-lg-4 col-sm-6  ">
-					<div class="thumbnail"><div class="image">
-			<img class="image" src="https://images.unsplash.com/photo-1476044591369-74ee6ac6899c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-			</div>
-		</div>
-	</div>
-</div>
-<script
+	</div></div></div>
+	<<script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
